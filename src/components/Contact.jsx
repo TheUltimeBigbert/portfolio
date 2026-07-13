@@ -1,4 +1,4 @@
-import { EMAIL, PHONE, PHONE_TEL, RESUME_URL, RESUME_FILENAME } from '../constants'
+import { EMAIL, PHONE, PHONE_TEL, RESUME_URL, RESUME_FILENAME, GITHUB_URL } from '../constants'
 
 function Contact() {
   return (
@@ -28,6 +28,17 @@ function Contact() {
             className="text-blue-400 hover:text-blue-300 transition-colors"
           >
             {PHONE}
+          </a>
+        </p>
+        <p>
+          GitHub:{' '}
+          <a
+            href={GITHUB_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400 hover:text-blue-300 transition-colors"
+          >
+            TheUltimeBigbert
           </a>
         </p>
       </div>

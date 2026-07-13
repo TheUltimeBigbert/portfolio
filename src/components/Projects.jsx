@@ -12,8 +12,6 @@ const projects = [
       'Collaborated with teammates on ML integration and system workflow',
     ],
     tech: 'React • JavaScript • Data Gathering • Machine Learning (Team Project)',
-    videoSrc: '/videos/cyber-threat-detection.mp4',
-    videoLabel: 'Demo video for Cyber Threat Detection Using Machine Learning',
   },
   {
     title: 'Cordillera',
@@ -25,8 +23,6 @@ const projects = [
       'Collaborated on platform features for showcasing weaving traditions',
     ],
     tech: 'React • Web Development',
-    videoSrc: '/videos/cordillera-weaves.mp4',
-    videoLabel: 'Demo video for Cordillera weaving project',
   },
 ]
 

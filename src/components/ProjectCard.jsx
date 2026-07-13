@@ -1,18 +1,6 @@
-function ProjectCard({ title, role, description, highlights, tech, videoSrc, videoLabel }) {
+function ProjectCard({ title, role, description, highlights, tech }) {
   return (
     <article className="bg-slate-700 rounded-lg overflow-hidden">
-      <video
-        src={videoSrc}
-        controls
-        muted
-        playsInline
-        preload="metadata"
-        className="w-full aspect-video object-cover bg-black"
-        aria-label={videoLabel}
-      >
-        Your browser does not support the video tag.
-      </video>
-
       <div className="p-6">
         <h3 className="text-xl font-bold">{title}</h3>
 

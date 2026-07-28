@@ -15,6 +15,7 @@ const projects = [
   },
   {
     title: 'Cordillera',
+    role: 'Frontend Developer',
     description:
       'A web platform that showcases Cordillera weaving traditions and helps preserve cultural heritage through digital storytelling.',
     highlights: [
@@ -23,6 +24,18 @@ const projects = [
       'Collaborated on platform features for showcasing weaving traditions',
     ],
     tech: 'React • Web Development',
+  },
+  {
+    title: 'MediCore HMS',
+    role: 'Frontend Developer',
+    description:
+      'Developed a responsive hospital management system interface with interactive dashboards, patient records, appointments, and billing views.',
+    highlights: [
+      'Created user-friendly pages for patients, doctors, laboratory, pharmacy, and settings modules',
+      'Improved UI/UX and feature integration to make the platform feel functional and modern',
+      'Assisted in testing, debugging, and refining the app for usability and responsiveness',
+    ],
+    tech: 'Next.js • React • TypeScript • Tailwind CSS • HTML5 • CSS3 • Supabase',
   },
 ]
 
